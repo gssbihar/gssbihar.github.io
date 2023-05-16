@@ -17,7 +17,10 @@ body{
   width: 100%;
   text-align: center;
 }
-
+.about{
+  background-color: #8d85b116;
+  color: #040303;
+}
 .logo{
  padding: 5px 5px 5px 15px;
  margin-top: 10px;
@@ -254,8 +257,8 @@ h3 > span:hover:before, h4 > span:hover:before, .nav a:hover:before{
 }
 
 .animation_temp{
-  width: 350px;
-  height: 350px;
+  /* width: 350px;
+  height: 350px; */
   background-color: red;
   position: relative;
   animation: picAnimation 5s linear 2s infinite alternate;
